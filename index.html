@@ -12,9 +12,10 @@
             height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
+            overflow-y: hidden;
         }
         button {
-            padding: 30% 45%;
+            padding: 100% 100%;
             font-size: 50px;
             cursor: pointer;
         }
@@ -22,7 +23,7 @@
 </head>
 <body>
 
-    <button onclick="playSoundOnLoop()">жми!!1!1!1!</button>
+    <button onclick="playSoundOnLoop()">жми</button>
 
     <audio id="audio" loop>
         <source src="sound.mp3" type="audio/mpeg">
